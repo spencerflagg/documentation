@@ -73,9 +73,7 @@ To install the SDK:
 
 .. code:: bash
 
-    git clone https://github.com/Start9Labs/embassy-os.git
-    cd backend
-    ./install-sdk.sh
+    git clone --recursive https://github.com/Start9Labs/embassy-os.git && cd embassy-os/backend && ./install-sdk.sh
 
 To verify the installation, open a terminal window and run:
 
